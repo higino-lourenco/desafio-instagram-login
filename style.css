@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(146, 205, 240);
+    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     display: flex;
@@ -81,11 +81,23 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.instagram-login:hover {
+    background-color: #01cff3;
+    cursor: pointer;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: #9cb4c4;
     margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.instagram-logout:hover {
+    color: #01cff3;
+    cursor: pointer;
 }
 
 .not-account {
